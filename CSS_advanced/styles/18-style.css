@@ -19,8 +19,8 @@ html {
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
 
-    --font-family-base:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
@@ -52,7 +52,7 @@ html {
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 4%;
+    --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
@@ -115,7 +115,7 @@ a:active {
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
-    font-style: var(--nav-item-font-size);
+    font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
@@ -123,8 +123,8 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding: .5rem 1rem;
-} 
+    padding: 0.5rem 1rem;
+}
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
