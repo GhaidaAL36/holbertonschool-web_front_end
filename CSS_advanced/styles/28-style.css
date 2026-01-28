@@ -152,7 +152,7 @@ a:active {
     text-align: center;
 }
 
-.card-testimonial .card-avatar{
+.card-testimonial .card-avatar {
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
@@ -230,6 +230,10 @@ ul.row {
 }
 
 .header-logo {
+    position: var(--header-logo-position);
+}
+
+.header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
@@ -249,7 +253,7 @@ ul.row {
     background-size: 90rem auto;
 }
 
-.section-hero .section-title{
+.section-hero .section-title {
     margin-bottom: 5rem;
 }
 
@@ -312,6 +316,6 @@ ul.row {
     display: block;
 }
 
-.social-link > svg{
+.social-link>svg {
     fill: var(--text-color);
 }
