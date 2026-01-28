@@ -35,20 +35,6 @@ html {
     --line-height-base: 1.5;
     --line-height-big: 1.8;
 
-    --section-header-align: center;
-
-    --section-tagline-transform: uppercase;
-
-    --section-title-margin: 0;
-    --section-title-color: var(--color-black);
-
-    --section-padding: 5rem 0;
-    --section-header-padding: 0 0 3rem;
-    --section-body-padding: 0 0 3rem;
-    --section-footer-padding: 3rem 0 0;
-    --section-footer-align: center;
-    --footer-padding: 5rem 0 1rem;
-
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
@@ -57,7 +43,18 @@ html {
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
 
+    --section-header-align: center;
+    --section-tagline-transform: uppercase;
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black);
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --section-footer-align: center;
     --section-tagline-margin: 0;
+
+    --footer-padding: 5rem 0 1rem;
 }
 
 body {
@@ -132,7 +129,7 @@ a:active {
     color: var(--nav-item-link-hover);
 }
 
-ul .row {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -195,7 +192,7 @@ ul .row {
     padding: var(--footer-padding);
 }
 
-ul .footer {
+.footer ul {
     text-align: right;
 
 }
