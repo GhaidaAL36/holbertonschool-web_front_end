@@ -165,15 +165,15 @@ a:active {
 }
 
 .card-work .card-outer {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
-.card-work .card-image {
-    height: 30rem;
-    width: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
+.card-work .card-image img {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
 }
 
 .card-work .card-inner {
@@ -203,12 +203,12 @@ a:active {
 }
 
 .card-work .card-title a::after {
-  content: '';
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  content: '';
 }
 
 .card-work:hover .card-title {
