@@ -144,6 +144,12 @@ ul .row {
     padding: .5rem;
 }
 
+.col-1-2 {
+    width: 50%;
+    float: left;
+    padding: .5rem;
+}
+
 .section {
     padding: var(--section-padding);
 }
@@ -191,7 +197,7 @@ ul .row {
 
 ul .footer {
     text-align: right;
-    
+
 }
 
 .footer-copyright {
